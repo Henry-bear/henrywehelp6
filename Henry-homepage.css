@@ -203,7 +203,7 @@ a:hover {
     }
 
     .main {
-        padding-top: 20px;
+        padding-top: 15px;
     }
 
     .about,
@@ -220,15 +220,27 @@ a:hover {
     }
 
     .medimg {
-        top: 145px;
         display: flex;
+        position: relative;
     }
 
     .icon {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .icon:hover {
-        font-size: 20px;
+        font-size: 23px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: rgb(255, 205, 111);
+    }
+
+    a:hover {
+        color: orange;
     }
 }
