@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0px 15px;
+}
+
+body {
+    margin: 0;
+}
+
+/*
+網頁標題
+*/
+h1 {
+    background-color: rgb(255, 170, 23);
+    color: rgb(58, 74, 89);
+    text-align: center;
+    text-shadow: 3px 3px 3px #cccccc;
+    margin: 15px;
+    margin-top: 0px;
+}
+
+/*
+網頁選項按鈕
+*/
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.about {
+    color: floralwhite;
+    background-color: rgb(232, 164, 205);
+    flex: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(117, 115, 115, 0.626) 0px 5px 10px;
+}
+
+.exps {
+    color: floralwhite;
+    background-color: rgb(247, 117, 117);
+    flex: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(117, 115, 115, 0.626) 0px 5px 15px;
+}
+
+.media {
+    color: floralwhite;
+    background-color: rgb(165, 238, 199);
+    flex: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(117, 115, 115, 0.626) 0px 5px 15px;
+}
+
+.medimg {
+    justify-content: flex-end;
+    position: absolute;
+    display: flex;
+    transition: all .6s ease-in-out;
+}
+
+.icon {
+    font-size: 22px;
+    color: rgb(255, 220, 155);
+}
+
+/*
+網頁內容
+*/
+.main {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.qformt {
+    background-color: rgb(255, 170, 23);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.ans {
+    background-color: rgba(211, 211, 211, 0.656);
+    padding: 12px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.back {
+    color: floralwhite;
+    background-color: rgb(106, 115, 234);
+    flex: none;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(117, 115, 115, 0.626) 0px 5px 15px;
+    cursor: pointer;
+}
+
+/*
+hover 樣式
+*/
+
+.about:hover {
+    background-color: rgb(232, 164, 205);
+    color: floralwhite;
+    box-shadow: #150a0a4b 4px 9px 17px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.exps:hover {
+    background-color: rgb(247, 117, 117);
+    color: floralwhite;
+    box-shadow: #150a0a4b 4px 9px 17px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.media:hover {
+    background-color: rgb(165, 238, 199);
+    color: floralwhite;
+    box-shadow: #150a0a4b 4px 9px 17px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.back:hover {
+    color: floralwhite;
+    box-shadow: #150a0a4b 4px 9px 17px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.icon:hover {
+    font-size: 28px;
+    color: orange;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+/* a標籤*/
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 205, 111);
+}
+
+a:hover {
+    color: orange;
+}
