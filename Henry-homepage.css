@@ -11,12 +11,14 @@ body {
 網頁標題
 */
 h1 {
-    background-color: rgb(255, 170, 23);
+    background-color: #BB9A88;
     color: rgb(58, 74, 89);
     text-align: center;
     text-shadow: 3px 3px 3px #cccccc;
-    margin: 15px;
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 /*
@@ -25,13 +27,16 @@ h1 {
 .link {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #CAC6BD;
 }
 
 .about {
     color: floralwhite;
-    background-color: rgb(232, 164, 205);
+    background-color: #979D6E;
     /* flex: none; */
     position: relative;
     bottom: 0px;
@@ -43,7 +48,7 @@ h1 {
 
 .exps {
     color: floralwhite;
-    background-color: rgb(247, 117, 117);
+    background-color: #979D6E;
     /* flex: none; */
     position: relative;
     bottom: 0px;
@@ -55,7 +60,7 @@ h1 {
 
 .media {
     color: floralwhite;
-    background-color: rgb(165, 238, 199);
+    background-color: #979D6E;
     /* flex: none; */
     position: relative;
     bottom: 0px;
@@ -82,11 +87,13 @@ h1 {
 */
 .main {
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .qformt {
-    background-color: rgb(255, 170, 23);
+    background-color: #BB9A88;
     font-weight: bold;
     padding: 10px;
     font-size: 18px;
@@ -94,7 +101,7 @@ h1 {
 }
 
 .ans {
-    background-color: rgba(211, 211, 211, 0.656);
+    background-color: #CAC6BD;
     padding: 12px;
     line-height: 30px;
     letter-spacing: 1.5px;
@@ -102,7 +109,7 @@ h1 {
 
 .back {
     color: floralwhite;
-    background-color: rgb(106, 115, 234);
+    background-color: #979D6E;
     flex: none;
     width: 300px;
     text-align: center;
@@ -119,7 +126,7 @@ hover 樣式
 */
 
 .about:hover {
-    background-color: rgb(232, 164, 205);
+    background-color: rgb(36, 101, 57);
     color: floralwhite;
     bottom: 3px;
     box-shadow: #150a0a4b 4px 9px 17px;
@@ -129,7 +136,7 @@ hover 樣式
 }
 
 .exps:hover {
-    background-color: rgb(247, 117, 117);
+    background-color: rgb(36, 101, 57);
     color: floralwhite;
     bottom: 3px;
     box-shadow: #150a0a4b 4px 9px 17px;
@@ -140,7 +147,7 @@ hover 樣式
 }
 
 .media:hover {
-    background-color: rgb(165, 238, 199);
+    background-color: rgb(36, 101, 57);
     color: floralwhite;
     bottom: 3px;
     box-shadow: #150a0a4b 4px 9px 17px;
@@ -157,11 +164,12 @@ hover 樣式
     transition: all .4s ease-in-out;
     cursor: pointer;
     font-weight: bold;
+    background-color: rgb(24, 95, 40);
 }
 
 .icon:hover {
     font-size: 28px;
-    color: orange;
+    color: rgb(2, 171, 205);
     cursor: pointer;
     transition: all .4s ease-in-out;
 }
@@ -173,11 +181,11 @@ a {
 }
 
 a:visited {
-    color: rgb(255, 205, 111);
+    color: rgb(42, 175, 201);
 }
 
 a:hover {
-    color: orange;
+    color: rgb(0, 119, 255);
 }
 
 /* media query */
@@ -200,6 +208,7 @@ a:hover {
         display: contents;
         justify-content: space-between;
         padding: 15px;
+        background-color: #CAC6BD;
     }
 
     .main {
@@ -237,10 +246,10 @@ a:hover {
     }
 
     a:visited {
-        color: rgb(255, 205, 111);
+        color: rgb(42, 175, 201);
     }
 
     a:hover {
-        color: orange;
+        color: rgb(0, 119, 255);
     }
 }
