@@ -5,6 +5,7 @@
 
 body {
     margin: 0 28px;
+    font-family: 'Microsoft Jhenghei';
 }
 
 /*
@@ -233,7 +234,7 @@ a:hover {
     }
 
     .main {
-        padding-top: 15px;
+        padding-top: 25px;
     }
 
     .about,
@@ -250,8 +251,22 @@ a:hover {
     }
 
     .medimg {
+        justify-content: flex-end;
+        position: absolute;
         display: flex;
-        position: relative;
+        opacity: 0;
+        top: -100px;
+        transition: all .3s ease;
+    }
+
+    .medimg-show {
+        justify-content: flex-end;
+        position: absolute;
+        display: flex;
+        opacity: 1;
+        top: auto;
+        right: 18px;
+        transition: all .6s ease-in-out;
     }
 
     .icon {
