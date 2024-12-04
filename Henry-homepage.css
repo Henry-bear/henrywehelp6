@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 28px;
 }
 
 /*
@@ -27,8 +27,8 @@ h1 {
 .link {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
     background-color: #CAC6BD;
@@ -74,8 +74,21 @@ h1 {
     justify-content: flex-end;
     position: absolute;
     display: flex;
+    opacity: 0;
+    top: -100px;
+    transition: all .3s ease;
+}
+
+.medimg-show {
+    justify-content: flex-end;
+    position: absolute;
+    display: flex;
+    opacity: 1;
+    top: auto;
+    right: 19px;
     transition: all .6s ease-in-out;
 }
+
 
 .icon {
     font-size: 22px;
@@ -85,14 +98,20 @@ h1 {
 /*
 網頁內容
 */
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .main {
-    text-align: center;
+    /* text-align: center; */
     padding: 10px 0px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
 .qformt {
+    text-align: center;
     background-color: #BB9A88;
     font-weight: bold;
     padding: 10px;
@@ -102,9 +121,10 @@ h1 {
 
 .ans {
     background-color: #CAC6BD;
-    padding: 12px;
+    padding: 15px;
     line-height: 30px;
     letter-spacing: 1.5px;
+    text-align: justify;
 }
 
 .back {
